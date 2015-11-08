@@ -1,0 +1,5 @@
+<configuration xmlns="http://geronimo.apache.org/xml/ns/deployment-1.0" configId="">
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <logger name="jdbc" level="OFF"/>
+    <logger name="jdbc.sqltiming" level="DEBUG"/>
+</configuration>
